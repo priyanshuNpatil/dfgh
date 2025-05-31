@@ -1,0 +1,177 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Portfolio</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            color: #333;
+        }
+
+        /* Header */
+        header {
+            background: #222;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Navigation */
+        nav ul {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        /* Sections */
+        section {
+            padding: 40px;
+            margin: 20px auto;
+            max-width: 800px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Footer */
+        footer {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+        /* Contact Form */
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        input, textarea {
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button {
+            padding: 12px;
+            background: #222;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #444;
+        }
+
+        /* Projects Section Styling */
+        .project {
+            padding: 20px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .project:last-child {
+            border-bottom: none;
+        }
+
+        .project h3 {
+            color: #3498db;
+        }
+
+        .project a {
+            text-decoration: none;
+            color: #2980b9;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="https://www.linkedin.com/in/harsh-dethe-505a33290/" target="_blank">LinkedIn</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About </h2>
+            <p>I am a web developer passionate about creating interactive websites and providing innovative solutions.</p>
+            <p><strong>Future Goals:</strong> <br> 
+               My goal is to expand my expertise in React and backend technologies to become a full-stack developer. <br> 
+               I am eager to contribute to innovative projects and collaborate with like-minded professionals.
+            </p>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <p><strong>Degree:</strong> BTech in Electronics and Telecommunications</p>
+            <p><strong>Institution:</strong> P.R. Pote Patil College of Engineering and Management</p>
+            <p><strong>Year of Graduation:</strong> 2027</p>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML & CSS</li>
+                <li>JavaScript & React</li>
+                <li>Bootstrap & Tailwind</li>
+                <li>Version Control (Git & GitHub)</li>
+            </ul>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+
+            <div class="project">
+                <h3>Google Clone</h3>
+                <p>This project is a front-end replica of Google's search page, designed with a modern and responsive UI.<br> It includes a search bar, navigation links, and styled elements that resemble Google's layout.<br> The project showcases skills in HTML, CSS, and JavaScript, focusing on clean design, responsiveness, and interactive elements.<br></p>
+                <p><strong>Technologies Used:</strong> HTML, CSS, JavaScript</p>
+                <a href="https://harsh2824.github.io/Google--Clone/" target="_blank">View on GitHub</a>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 My Portfolio | Connect on 
+            <a href="https://www.linkedin.com/in/harsh-dethe-505a33290/" target="_blank">LinkedIn</a>
+        </p>
+    </footer>
+
+</body>
+</html>
